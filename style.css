@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    overflow-x: hidden;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+header{
+    width: 100%;
+   
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.13);
+    padding: 20px;
+    
+}
+.nav-list ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-list li a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(81, 110, 119);
+    margin: 0px 15px;
+    font-weight: 300;
+    font-size: 12px;
+
+}
+
+.nav-list li{
+    margin:10px  15px ;
+}
+
+.nav-items .logo img{
+    height: 40px;
+    margin-left: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.content-text h6{
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: rgb(32, 32, 32);
+}
+.content-text h1{
+    font-family: sans-serif;
+    font-size: 4rem;
+    color: rgb(79, 109, 119);
+    margin-bottom: 15px;
+}
+
+.content-text p{
+    font-family: cursive;
+    font-size: 1rem;
+    color: rgb(155, 155, 155);
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 20px 35px;
+    background-color: rgba(0, 191, 255, 0.856);
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.content-text{
+    flex-direction:  column;
+}
+
+/* ==========================ABOUT START=========================== */
+.about{
+    display: flex;
+    align-items: center;
+    margin: 100px auto;
+    justify-content: space-between;
+    width: 90%;
+    
+    
+}
+.about .about-text{
+    width: 35%;
+    margin-right: 100px;
+    flex-direction: column;
+}
+.about h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: rgb(54, 77, 85);
+   
+}
+
+.about h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin: 25px 0;
+    color: rgb(54, 77, 85);
+    
+}
+
+.about p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    color: rgb(68, 69, 70);
+}
+
+/* ===================== ABOUT END ======================= */
+
+/* ================= SERVICES START ===================== */
+
+.services .services-text{
+    width: 60%;
+    text-align: center;   
+    margin: 0 auto;
+}
+
+.services .services-text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.services .services-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin: 5px 0;
+    color: rgb(99, 100, 100);
+}
+
+
+
+/* ================= SERVICES START ===================== */
+
+.services-items{
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.services-row{
+    width: 33%;
+    text-align: center;
+    border: solid none;
+    padding: 40px 50px;
+    
+    margin: 0px 0px ;
+}
+
+.services-row:hover{
+    box-shadow: 2px 2px 2px 2px lightblue;
+
+}
+
+.services-row h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(36, 41, 43);
+    margin-top: 20px;
+   
+}
+
+.services-row h3:hover{
+    color: rgb(36, 177, 224);
+}
+
+.services-row p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    color: rgb(105, 105, 105);
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.services-row i{
+    font-size: 2rem;
+    color: rgb(36, 177, 224);
+}
+
+.services-row i:hover{
+    color: rgb(30, 44, 49);
+    
+}
+
+.counts-number {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(125deg, rgb(41, 139, 196) 20px , rgb(83, 140, 224));
+    display: flex;
+}
+
+.counts-number ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.counts-number ul .number-text{
+    margin: 0 80px;
+    top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.counts-number ul .number-text h1{
+    font-size: 2rem;
+    color: white;
+}
+
+.counts-number ul .number-text h3{
+    font-size: 1rem;
+    font-weight: 200;
+    color: white;
+}
+
+
+.projects{
+    margin-top: 120px ;
+}
+
+.projects .projects-text{
+    margin: 0px auto;
+    width: 50%;
+    text-align: center;
+}
+
+.projects .projects-text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2rem;
+    color: rgb(20, 19, 19);
+}
+
+.projects .projects-text p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.452);
+}
+
+.projects .project-nav ul{
+    list-style: none;
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+}
+
+.projects .project-nav ul li{
+    margin: 0 10px;
+}
+
+.projects .project-nav ul li a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    transform: all 5s ease;
+}
+
+.projects .project-nav ul li a:hover{
+    border-bottom: solid black;
+}
+
+.project-img{
+    align-items: center;
+    justify-content: center;
+}
+
+.project-row{
+    width: 29%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.project-img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.project-row h3{
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.project-row p{
+    color: rgba(58, 57, 57, 0.808);
+    margin-top: 10px ;
+}
+
+.feadback{
+    margin-top: 100px;
+    background-color: rgb(238, 242, 252);
+    width: 100%;
+    height: 450px;
+    
+}
+
+.feadback .feadback-title{
+    width: 60%;
+    margin: auto;
+    position:relative;
+    top: 50px;
+    text-align: center;
+   
+}
+
+.feadback .feadback-title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: rgb(24, 35, 39);
+}
+
+.feadback .feadback-title p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: rgb(77, 77, 77);
+
+}
+
+.feadback-img img{
+    width: 40px;
+    margin-right: 30px;
+}
+
+.feadback-iteam{
+    width: 45%;
+    display: flex; 
+    margin-top: 150px;
+    border: solid none;
+    background-color: whitesmoke;
+    padding: 10px 90px;
+    
+
+}
+
+.feadback-iteam .feadback-text{
+    margin-right: 12px;
+    flex-direction: column;
+}
+
+.feadback-iteam .feadback-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.feadback-iteam .feadback-text h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.feadback-iteam .feadback-text h5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.781);
+
+}
+
+.feadback-content{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.blog{
+    margin-top: 100px;
+}
+
+.blog-title h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+
+.blog-title p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.blog-title{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+
+.main-post{
+    width: 40%;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.blog-img{
+    width: 90%;
+    margin: auto;
+}
+
+.social-media{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+    position: relative;
+    top: 10px;
+
+}
+
+.social-media .icones{
+    color: red;
+    margin-bottom:5px ;
+   
+}
+
+.social-media .name{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(53, 53, 53);
+    margin-bottom: 5px;
+}
+
+.text{
+    margin-top: 30px;
+}
+.text h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+
+.text p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    margin: auto;
+    color: rgb(75, 74, 74);
+}
+
+.blog-post{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.blog{
+    width: 100%;
+    height: 700px;
+    background-color: whitesmoke;
+}
+
+footer{
+    background-color: rgb(15, 15, 32);
+    width: 100%;
+    height: 300px;
+}
+.footer-about{
+    width: 30%;
+    position: relative;
+    top: 50px;
+    
+}
+.footer-about h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+.footer-about p{
+    color: rgb(182, 182, 182);
+}
+
+.newsletter h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+
+}
+
+.newsletter p{
+    color: rgb(182, 182, 182);
+    margin-top: 20px;
+}
+
+.newsletter{
+    width: 30%;
+    position: relative;
+    top: 50px;
+}
+
+.footer-iteams{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.mail-form{
+    border: 1px solid white;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    border-radius: 5px;
+}
+
+.mail-form input{
+    width: 72%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 13px;
+    border: hidden;
+    font-size: 15px;
+    
+    
+    
+}
+
+.mail-form button{
+    position: relative;
+    bottom: 14px;
+    left: 9px;
+    padding: 10px 15px;
+
+}
